@@ -7,8 +7,8 @@
     color: white;
     display: flex;
     text-align: center;
-    width: 650px;
-    min-height: 250px;
+    width: 400px;
+    min-height: 500px;
     flex-direction: row;
     flex-wrap: wrap;
 }
@@ -19,17 +19,19 @@
     background-color: red;
     flex-basis: 100%;
 
+
 }
 
 .blue {
     background-color: blue;
-    flex-basis: 60%;
+    flex-basis: 80%;
+
 
 }
 
 .green {
     background-color: green;
-    flex-basis: 20%;
+    flex-basis: 100%;
 
 }
 
@@ -43,9 +45,18 @@
     background-color: purple;
     flex-basis: 100%;
 
+
+
+}
+
+@media screen and (min-width:768px) {
+
+  
 }
 
 @media screen and (max-width:992px) {
 
-}
+   
     
+
+}
