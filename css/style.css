@@ -36,3 +36,7 @@
     background-color: purple;
     flex-basis: 5%;
 }
+
+@media screen and (768px) {
+    
+}
